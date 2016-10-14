@@ -1,0 +1,116 @@
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 1200px) { 
+	
+	/* Assign Teacher */
+
+		.user-name{
+			font-size: 30px;
+			text-transform: capitalize;
+		}
+	
+		.main-grid{
+			margin-top: 7.5px;
+		}
+
+		.input-group{
+			margin-bottom: 5px;
+		}
+
+		.col{
+			margin-left: 7.5px;
+			margin-right: 7.5px;
+		}
+
+		.mdl-grid button{
+			margin-top: 0px;
+			margin-left: 7.5px;
+		}
+
+		.display-table{
+			margin-top: 5%;
+		}
+
+
+
+	/* Coder Screen */
+
+		.coder-form{
+			margin-left: 7px;
+		}
+
+		.table-block{
+			overflow: scroll;
+			height: 300px;
+			width: 59%;
+			margin-left: 6px;
+			padding: 0px;
+		}		
+
+		.table-block::-webkit-scrollbar {
+		    width: 0px;
+		    height: 10px;
+		}
+		 
+		.table-block::-webkit-scrollbar-track {
+		    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+		}
+		 
+		.table-block::-webkit-scrollbar-thumb {
+		  background-color: rgba(63,81,181,1);
+		  outline: 1px solid rgba(232,232,232,0);
+		  -webkit-box-shadow: 0 0 6px rgba(0,0,0,0.3);
+		}
+
+		.table-block tr td{
+			padding: 1px;
+			 
+		}
+
+		.table-block td input[type=text]{
+			width: 78px;
+		}
+
+		.display-table table thead{
+			background-color: rgba(210,219,230,1);
+		}
+
+		.outer-grid{
+			margin-top: 2%;
+			margin-left: 1%;
+		}
+
+		.inner-head table thead{
+			position: fixed;
+		}
+		.inner-div{
+			height: 450px;
+			overflow-y: scroll;
+		}
+
+		.inner-div::-webkit-scrollbar{
+			width: 0px;
+		}
+
+		.grid1{
+			border-bottom: 1px solid #D4D4D4 !important;
+		}
+
+		.inner-div table{
+			margin: 0px;
+		}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1700px) { 
+
+	.entry-form .mdl-cell--6-col{
+		width: 45%;
+		padding: 0px;
+	}
+	
+	.entry-form .mrn{
+		padding: 0px;
+	}
+
+}
